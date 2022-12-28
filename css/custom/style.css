@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+VIC+WA+NT+Beginner:wght@400;600&display=swap');
+ 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.68rem;
+}
+
+.navbar ul li{
+    margin-right: 3rem;
+    background-color: white;
+    letter-spacing: 0.13rem;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active{
+    color: aqua;
+    border-radius: 5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+.a {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    background-color: #0e643a;
+    color: white;
+}
+.a:hover {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    background-color: #478412;
+    color: white;
+}
+
+.dd-mobilite{
+    border-radius: 1rem;
+}
+.dd-mobilite ul li{
+    letter-spacing: 0px;  
+}
+.Htext{
+    padding: 11px;
+}
+.Htext h1{
+    font-style: italic;
+}
+.atext{
+    text-align: center;
+}
+
+.hrtext{
+    margin: 3rem 0rem;
+}
+.atext{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Nphoto{
+    width: 80%;
+    height: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+.chef{
+    height: auto;
+    width: 100%;
+}
+
+#about .cardd h4{
+    margin-top: 1rem;
+}
+
+.h-icon{
+    margin-top: 1rem;
+}
+
+.h-options{
+    font-size: 25px;
+}
+
+.options{
+    margin-top: 3px;
+    width: 20rem; 
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.options option{
+    font-size: 20px;
+}
+
+#noText{
+    font-size: 38px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.close-modal:hover {
+    opacity: 0.5;
+}
+#portfolio .p-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio .p-item .p-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#portfolio .p-item .p-link .p-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 22, 23, 0.75);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.3s;
+    -webkit-transition: opacity ease-in-out 0.3s;
+    -moz-transition: opacity ease-in-out 0.3s;
+    -ms-transition: opacity ease-in-out 0.3s;
+    -o-transition: opacity ease-in-out 0.3s;
+}
+
+#portfolio .p-item .p-link .p-hover .ph-content {
+    font-size: 6.3rem;
+}
+
+#portfolio .p-item .p-link:hover .p-hover {
+    opacity: 1;
+}
+
+#portfolio .p-item .p-caption .pc-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#portfolio .p-item .p-caption .pc-subheading {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+
+.p-modal .modal-content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.p-modal .modal-content .p-intro {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-modal .close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.p-modal .close-modal:hover {
+    opacity: 0.5;
+}
+
+.aa{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 210px;
+}
+
+#contact .form-textarea {
+    height: 92%;
+}
+
+#contact .form-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+
+@media (max-width:991.98px) {
+    .hrtext{
+        margin: 0;
+    }
+    .Nphoto{
+        width: 100%;
+        height: auto;   
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    
+}
